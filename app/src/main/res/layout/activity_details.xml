@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_hospital_id"
+        android:hint="enterHospitalName"
+        android:padding="10dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/et_hospitalAdress_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_hospital_id"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="34dp"
+        android:hint="enterAdress"
+        android:padding="10dp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Location_id"
+        android:hint="enterLocation"
+        android:textStyle="italic"
+        android:layout_below="@id/et_hospitalAdress_id"
+        android:textSize="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/bt_Submit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Location_id"
+        android:layout_marginTop="30dp"
+        android:text="SUBMIT"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

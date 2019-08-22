@@ -4,8 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profileActivity">
+    tools:context=".profileActivity"
+    android:background="#fff">
 
-    
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:src="@drawable/grifins" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:text="Doc's Name"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="@color/colorPrimary"
+                 android:textSize="20dp"
+                 android:layout_marginTop="10dp"
+                 android:textAlignment="center"
+                 android:text="Occupation"
+                 />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Contact details"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_button_id"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="#00f"
+                android:text="Submit"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
 </RelativeLayout>

@@ -19,6 +19,15 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
+        Submit=(Button)findViewById(R.id.bt_Submit_id);
+        Submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),profileActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

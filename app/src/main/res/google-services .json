@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "971209875321",
+    "firebase_url": "https://patientregistrationapp.firebaseio.com",
+    "project_id": "patientregistrationapp",
+    "storage_bucket": "patientregistrationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971209875321:android:eb96dc5785782bd3",
+        "android_client_info": {
+          "package_name": "com.example.patientregistrationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971209875321-8o3vndjl6v8sms1ifr9itj6p48p778s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patientregistrationapp",
+            "certificate_hash": "7793c9318642f709b5fe60d75606f6b679cb3d87"
+          }
+        },
+        {
+          "client_id": "971209875321-960clvo1oidir6epuedajrllgk6betlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc4C78CD1zVCIwbH0Yw3zvzhxkVWVrWY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971209875321-960clvo1oidir6epuedajrllgk6betlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

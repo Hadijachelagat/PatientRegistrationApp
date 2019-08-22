@@ -20,16 +20,20 @@ public class LogInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
 
-       EnterName =(EditText)findViewById(R.id.et_logInUserName_id) ;
-       EnterPassword=(EditText)findViewById(R.id.et_loginPassword_id);
+        logInButton=(Button)findViewById(R.id.bt_loginButton_id);
+        logInButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),DetailsActivity.class);
+                startActivity(intent);
+            }
+        });
 
-       logInButton.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               Intent intentLogIn = new Intent(getApplicationContext(),DetailsActivity.class);
-               startActivity(intentLogIn);
+
+
            }
-       });
+
     }
 
-}
+
+
